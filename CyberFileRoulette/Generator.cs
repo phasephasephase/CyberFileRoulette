@@ -18,7 +18,7 @@ public static class Generator
 		while (Running)
 		{
 			// keep a limit of like 100 links in memory
-			if (_links.Count > 100) continue;
+			if (_links.Count > 99) continue;
 			
 			var sb = new StringBuilder();
 			for (var i = 0; i < 4; i++)
